@@ -1,7 +1,12 @@
-#include <iostream>
+#include "Lesson.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Lesson a;
+    Lesson b("Database", "SQL query", "SELECT query");
+
+    a.showInfo();
+    b.showInfo();
+
 }
 
