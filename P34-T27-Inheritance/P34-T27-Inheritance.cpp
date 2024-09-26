@@ -1,4 +1,5 @@
 #include "Lesson.h"
+#include "PaidLesson.h"
 
 int main()
 {
@@ -8,5 +9,15 @@ int main()
     a.showInfo();
     b.showInfo();
 
+    cout << "\n\n\n++++++++++++++++++++++++++++++++++++++";
+    cout << "\n++++++++++++++++++++++++++++++++++++++";
+    cout << "\n++++++++++++++++++++++++++++++++++++++";
+    cout << "\n++++++++++++++++++++++++++++++++++++++\n\n";
+
+    PaidLesson c;
+    PaidLesson d("JS", "DOM-model", "Create a gallery!", 200.99);
+
+    c.showInfo();
+    d.showInfo();
 }
 
