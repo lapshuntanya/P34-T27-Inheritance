@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="Lesson.cpp" />
     <ClCompile Include="P34-T27-Inheritance.cpp" />
+    <ClCompile Include="PaidLesson.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lesson.h" />
+    <ClInclude Include="PaidLesson.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
